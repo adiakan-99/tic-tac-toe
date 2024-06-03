@@ -1,0 +1,70 @@
+*{
+    margin: 0ps;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bf6930;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.announcement {
+    height: 30px;
+    text-align: center;
+}
+
+.game {
+    width: 50vw;
+    height: 80vh;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+
+.game-container {
+    width: 60%;
+    height: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-left: 19%;
+}
+
+.game-box {
+    width: 33.3%;
+    height: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+
+.game-box:nth-child(1), .game-box:nth-child(2), .game-box:nth-child(3), .game-box:nth-child(4), .game-box:nth-child(5), .game-box:nth-child(6) {
+    border-bottom: 5px solid black;
+}
+
+.game-box:nth-child(1), .game-box:nth-child(4), .game-box:nth-child(7), .game-box:nth-child(2), .game-box:nth-child(5), .game-box:nth-child(8) {
+    border-right: 5px solid black;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 42%;
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.game-decision {
+    height: 25px;
+}
